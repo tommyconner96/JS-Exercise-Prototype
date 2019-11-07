@@ -113,10 +113,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. this refers to the global object
+  2. in a method, this refers to the owner of the method
+  3. in a constructor (using the 'new' keyword) it refers to the new instance
+  4. 'this refers to the invoker object (parent object). so if it is used as a method within that object it will refer to that object instead of the global object
 */
 
 
